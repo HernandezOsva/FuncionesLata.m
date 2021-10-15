@@ -18,6 +18,8 @@ clear all
 %La lata para envasar aceite.
 disp ('La lata para envasar aceite.');
 
+
+
 %Rango de 0.1 en 0.1
 r=0:0.1:1;
 
