@@ -21,6 +21,7 @@ disp ('La lata para envasar aceite.');
 %Rango de 0.1 en 0.1
 r=0:0.1:1;
 
+
 %Valor de función
 ar = @(r) (2 * (pi)) * (r.^2) + (2./(r))
 
@@ -29,6 +30,7 @@ y = (2 * (pi)) * (r.^2) + (2./(r))
 
 %Dibujar r,y
 plot(r,y);
+
 
 
 grid on;
